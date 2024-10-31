@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+.post-table {
+  margin: 10px 0;
+  width: 100%;
+  border-style: none !important;
+  overflow: hidden;
+  word-break: break-all;
+}
+.post-table td, .post-table tr {
+  border-style: none !important;
+}
+.post-table .postdate {
+  width: 8em;
+  padding-left: 10px;
+}
+
+.post-list #next-post-btn {
+  margin: 15px auto;
+  width: 120px;
+  line-height: 2.4;
+  background-color: #428bca;
+  border-color: #3071a9;
+  color: #FFFFFF;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+.post-list #next-post-btn:hover, .post-list #next-post-btn:focus {
+  background-color: #3071a9;
+  border-color: #245682;
+  color: #FFFFFF;
+}
+.post-list #loader {
+  display: none;
+  text-align: center;
+  margin: 15px auto;
+}
